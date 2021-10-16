@@ -5,9 +5,54 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>cssMemSlider</title>
+  <title>cssMemSlider</title> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-  
+  <div class="wrapper">
+    <input checked type="radio" name="respond" id="desktop">
+    <div class="slider">
+      <input type="radio" name="point" id="slide1" checked>
+      <input type="radio" name="point" id="slide2">
+      <input type="radio" name="point" id="slide3">
+      <input type="radio" name="point" id="slide4">
+      <input type="radio" name="point" id="slide5">
+      <div class="slides">
+        <div class="overflow">
+          <div class="images">
+            <figure class="slide">
+              <img src="./image/mem1.jpg" alt="img1">
+              <figcaption class="slide__text">text1</figcaption>
+            </figure>
+            <figure class="slide">
+              <img src="./image/mem2.jpg" alt="img2">
+              <figcaption class="slide__text">text2</figcaption>
+            </figure>
+            <figure class="slide">
+              <img src="./image/mem3.jpg" alt="img3">
+              <figcaption class="slide__text">text3</figcaption>
+            </figure>
+            <figure class="slide">
+              <img src="./image/mem4.jpg" alt="img4">
+              <figcaption class="slide__text">text4</figcaption>
+            </figure>
+            <figure class="slide">
+              <img src="./image/mem5.jpg" alt="img5">
+              <figcaption class="slide__text">text5</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="controls">
+        <label for="slide1"></label>
+        <label for="slide2"></label>
+        <label for="slide3"></label>
+        <label for="slide4"></label>
+        <label for="slide5"></label>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
