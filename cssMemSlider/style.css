@@ -152,10 +152,8 @@ input {
     top: -65px;
   }
   .slide__text {
-    text-align: center;
     font-size: 2rem;
     line-height: 2.2rem;
-    text-align: center;
     padding-top: 80px;
   }
 }
@@ -166,10 +164,8 @@ input {
     top: -60px;
   }
   .slide__text {
-    text-align: center;
     font-size: 1.6rem;
     line-height: 1.8rem;
-    text-align: center;
     padding-top: 60px;
   }
 }
