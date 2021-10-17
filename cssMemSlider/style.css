@@ -134,3 +134,42 @@ input {
   left: -3.5px;
   bottom: 3.5px;
 }
+
+@media (max-width: 1024px) {
+  .wrapper {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .slide__text {
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .controls {
+    text-align: center;
+    top: -65px;
+  }
+  .slide__text {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    padding-top: 80px;
+  }
+}
+
+@media (max-width: 420px) {
+  .controls {
+    text-align: center;
+    top: -60px;
+  }
+  .slide__text {
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    text-align: center;
+    padding-top: 60px;
+  }
+}
